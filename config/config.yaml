@@ -1,0 +1,6 @@
+# Runtime parameters — loaded separately from config/agent.yaml (the static
+# discovery manifest) and passed to the graph as Graph(config=...).
+max_retry: 3
+timeout_seconds: 30
+lancedb_path: "data/candidate_profiles.lancedb"  # local-only, APPI compliant
+output_language: "ja"
